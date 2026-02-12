@@ -8,24 +8,29 @@
 
 ## Atividades
 
-### Atividade 1 - Listas e Dicionários
-- Crie uma lista de alunos contendo: nome, email, idade e sigla do curso;
-E.G: 
-````json
+<details>
+<summary>Atividade 1 - Resumão</summary>
+<ul>
+<li>Crie uma lista de alunos contendo: nome, email, idade e sigla do curso;</li>
+<pre>
 [
   {"nome": "Brendo", "email": "brendo.matos@ciesa.br", "idade": 32, "curso": "CCP"},
   {"nome": "Eva", "email": "eva@ciesa.br", "idade": 15, "curso": "ADS"},
   {"nome": "Ed", "email": "ed@ciesabr", "idade": 12, "curso": "DIR"},
   {"nome": "Joao", "email": "joao@cies.abr", "idade": 18, "curso": "ADS"},
 ]
-````
-- Crie uma lista de cursos disponíveis contendo a sigla;
-````python
+</pre>
+<li>Crie uma lista de cursos disponíveis contendo a sigla;</li>
+<pre>
 ["CCP", "ADS", "IA", "EGC"]
-````
-- Crie uma função que receba a lista de alunos e valide segundo os seguintes critérios:
-   - O nome deve conter pelo menos 3 caracteres;
-   - O email deve conter um "@" e um ".";
-   - A idade deve ser maior ou igual a 16 anos;
-   - A sigla do curso deve existir no dicionário de cursos disponíveis;
-- A função deve retornar uma lista de alunos válidos e uma lista de alunos inválidos, juntamente com a lista de motivos da invalidação.
+</pre>
+<li>Crie uma função que receba a lista de alunos e valide segundo os seguintes critérios: </li>
+  <ul>
+  <li>O nome deve conter pelo menos 3 caracteres;</li>
+  <li>O email deve conter um "@" e um ".";</li>
+  <li>A idade deve ser maior ou igual a 16 anos;</li>
+  <liA sigla do curso deve existir no dicionário de cursos disponíveis;<li
+  </ul>
+<li>A função deve retornar uma lista de alunos válidos e uma lista de alunos inválidos, juntamente com a lista de motivos da invalidação.</li>
+</ul>
+</details>
