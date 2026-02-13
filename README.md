@@ -32,5 +32,10 @@
   <liA sigla do curso deve existir no dicionário de cursos disponíveis;<li
   </ul>
 <li>A função deve retornar uma lista de alunos válidos e uma lista de alunos inválidos, juntamente com a lista de motivos da invalidação.</li>
+
+<pre>
+alunos validos: [{'nome': 'Brendo', 'email': 'brendo.matos@ciesa.br', 'idade': 32, 'curso': 'CCP'}, {'nome': 'Joao', 'email': 'joao@cies.abr', 'idade': 18, 'curso': 'ADS'}]
+alunos invalidos:  [{'nome': 'Eva', 'motivos': ['Idade menor que 16 anos']}, {'nome': 'Ed', 'motivos': ['Idade menor que 16 anos', 'Curso não disponível', 'Nome com menos de 3 caracteres', 'Email inválido']}]
+</pre>
 </ul>
 </details>
