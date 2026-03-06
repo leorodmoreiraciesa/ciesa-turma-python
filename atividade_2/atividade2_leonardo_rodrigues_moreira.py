@@ -12,7 +12,6 @@ class Projeto:
         capacidade_pontos = 0
         for desenvolvedor in self.desenvolvedores:
             capacidade_pontos = capacidade_pontos + desenvolvedor.pontos_por_dia
-
         return capacidade_pontos
 
     def verificar_viabilidade(self):
