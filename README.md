@@ -73,7 +73,7 @@ Desenvolvedor:
 <details>
 <summary>Atividade 3 - Orientação a Objetos - Sistema de controle de Biblioteca</summary>
 <ul>
-<li>Implemente a organização das classes Livros e Desenvolvedores</li>
+<li>Implemente a organização das classes Livros e Biblioteca</li>
 <pre>
 Livro:
   Atributos:
